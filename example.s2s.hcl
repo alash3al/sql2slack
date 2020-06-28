@@ -3,7 +3,7 @@ job tst {
 
     driver = "mysql"
 
-    dsn = "root:root@tcp(127.0.0.1:3306)/spklvote"
+    dsn = "root:root@tcp(127.0.0.1:3306)/dbname"
 
     query = <<SQL
         SELECT users.* FROM users

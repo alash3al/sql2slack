@@ -23,7 +23,7 @@ job tst {
     driver = "mysql"
 
     // data source name (connection string)
-    dsn = "root:root@tcp(127.0.0.1:3306)/spklvote"
+    dsn = "root:root@tcp(127.0.0.1:3306)/dbname"
 
     // the query this is a multiline example, you can just write the following
     // query = "select * from users"
