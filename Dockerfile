@@ -4,6 +4,8 @@ RUN apk add --no-cache git
 
 RUN CGO_ENABLED=0 go get -ldflags="-s -w" github.com/alash3al/sql2slack
 
-ENTRYPOINT ["sql2slack"]
+FROM scratch
 
-WORKDIR /root/
+COPY --from=builder /go/bin/sql2slack ./
+
+ENTRYPOINT ["./sql2slack"]

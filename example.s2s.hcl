@@ -1,5 +1,5 @@
 job tst {
-    channel = "https://hooks.slack.com/services/xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    channel = "https://enbs7oy1sjuy8.x.pipedream.net"
 
     driver = "mysql"
 
