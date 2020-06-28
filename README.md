@@ -28,7 +28,7 @@ job tst {
     // the query this is a multiline example, you can just write the following
     // query = "select * from users"
     query = <<SQL
-        SELECT users.* FROM users; -- WHERE created_at > DATE_SUB(NOW(), INTERVAL 2 HOUR)
+        SELECT users.* FROM users;
     SQL
 
     // cron like syntax
@@ -86,4 +86,4 @@ Installation
 Notes
 =====
 - by default `sql2slack` uses the current working directory as jobs files source, you can override that using `--jobs-dir` flag.
-- each job file *must* have the `.s2s.hcl` suffix.
+- each job file **must** have the `.s2s.hcl` suffix.

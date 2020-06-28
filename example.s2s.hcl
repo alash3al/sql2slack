@@ -6,7 +6,7 @@ job tst {
     dsn = "root:root@tcp(127.0.0.1:3306)/spklvote"
 
     query = <<SQL
-        SELECT users.* FROM users; -- WHERE created_at > DATE_SUB(NOW(), INTERVAL 2 HOUR)
+        SELECT users.* FROM users
     SQL
 
     schedule = "* * * * *"
