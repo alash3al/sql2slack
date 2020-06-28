@@ -61,7 +61,7 @@ Integrating Slack
 2. Click on `Create New App`.
 3. Choose `Incoming Webhooks` and activate it.
 4. Scroll down to `Add New Webhook to Workspace` and follow the instructions.
-5. Scroll down to the webhooks table, and copy the generated webhook url.`
+5. Scroll down to the webhooks table, and copy the generated webhook url.
 
 Available SQL Drivers
 =====================
