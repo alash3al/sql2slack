@@ -80,7 +80,7 @@ Available SQL Drivers
 
 Installation
 ============
-- [Binaries](/releases/)
+- [Binaries](https://github.com/alash3al/sql2slack/releases)
 - [Docker](https://hub.docker.com/r/alash3al/sql2slack)
 
 Notes
