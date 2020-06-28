@@ -82,3 +82,8 @@ Installation
 ============
 - [Binaries](/releases/)
 - [Docker](https://hub.docker.com/r/alash3al/sql2slack)
+
+Notes
+=====
+- by default `sql2slack` uses the current working directory as jobs files source, you can override that using `--jobs-dir` flag.
+- each job file *must* have the `.s2s.hcl` suffix.
