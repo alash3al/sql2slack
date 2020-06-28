@@ -17,7 +17,7 @@ Quick Overview
 ```hcl
 job tst {
     // slack-channel webhook url
-    channel = "https://hooks.slack.com/services/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"
+    channel = "https://hooks.slack.com/services/xxxxxxxxxxxxxxxxxxxxx"
 
     // which sql driver do you use?
     driver = "mysql"
