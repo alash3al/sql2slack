@@ -11,6 +11,7 @@ require (
 	github.com/hashicorp/hcl/v2 v2.6.0
 	github.com/jmoiron/sqlx v1.2.0
 	github.com/lib/pq v1.7.0
+	github.com/mattn/go-sqlite3 v1.14.3
 	github.com/robertkrimen/otto v0.0.0-20191219234010-c382bd3c16ff
 	github.com/robfig/cron/v3 v3.0.0
 	gopkg.in/sourcemap.v1 v1.0.5 // indirect
