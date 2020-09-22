@@ -77,6 +77,7 @@ Available SQL Drivers
 |         | `odbc:server=localhost\\SQLExpress;user id=sa;database=master;app name=MyAppName` |
 |         | `odbc:server=localhost;user id=sa;database=master;app name=MyAppName` |
 | `clickhouse` |   `tcp://host1:9000?username=user&password=qwerty&database=clicks&read_timeout=10&write_timeout=20&alt_hosts=host2:9000,host3:9000` |
+| `sqlite3` | `/path/to/sqlite/file.sqlite`|
 
 Installation
 ============
